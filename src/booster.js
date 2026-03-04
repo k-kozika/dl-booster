@@ -77,7 +77,7 @@ export async function run({ platform, targetPackage, count, concurrency }) {
   downlaodPromise.then((results) => {
     clearInterval(i);
     const success = results.filter((r) => r.status === "fulfilled").length
-    downloaderSpinner.succeed(`Download numbers have increased! Successful downloads= ${success}`);
+    downloaderSpinner.succeed(`Downloads have increased! Successful downloads= ${success}`);
   }).catch((e) => {
     clearInterval(i);
     downloaderSpinner.fail(`Something went wrong.\n${e}`);
