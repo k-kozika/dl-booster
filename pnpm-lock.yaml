@@ -10,7 +10,7 @@ importers:
     dependencies:
       figlet:
         specifier: ^1.10.0
-        version: 1.10.0
+        version: 1.11.3
       ora:
         specifier: ^9.3.0
         version: 9.3.0
@@ -58,8 +58,8 @@ packages:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
 
-  figlet@1.10.0:
-    resolution: {integrity: sha512-aktIwEZZ6Gp9AWdMXW4YCi0J2Ahuxo67fNJRUIWD81w8pQ0t9TS8FFpbl27ChlTLF06VkwjDesZSzEVzN75rzA==}
+  figlet@1.11.3:
+    resolution: {integrity: sha512-7+OS4S6VjQXI2XRvfZlOdHhItd25lI0NgrR1j5UHfuyZfmMh44v65tMQUlb2bSriYGPCHAtGhuY5u23vqelvmg==}
     engines: {node: '>= 17.0.0'}
     hasBin: true
 
@@ -173,7 +173,7 @@ snapshots:
 
   escalade@3.2.0: {}
 
-  figlet@1.10.0:
+  figlet@1.11.3:
     dependencies:
       commander: 14.0.3
 
